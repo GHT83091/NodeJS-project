@@ -9,7 +9,7 @@ app.use(morgan('combined'));
 
 app.get("/", (req,res) =>{
 
-    res.send('TEST NODE JS');    // to run test at blowser fill==> http://localhost:3002 or localhost:3002
+    res.send(' HELLO  NODE JS PROJECT1');
 })
 
 app.listen(port, () =>{
